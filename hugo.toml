@@ -2,3 +2,15 @@ baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'Blog of Thomas Zachary'
 theme = 'paper'
+
+[params]
+  math = true
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['\[', '\]'], ['$$', '$$']]
+          inline = [['\(', '\)']]
