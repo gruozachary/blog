@@ -6,6 +6,9 @@ theme = 'paper'
 [params]
   math = true
 
+  [params.author]
+    name = 'Thomas Zachary'
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.extensions]
