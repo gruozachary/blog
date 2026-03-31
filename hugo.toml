@@ -6,8 +6,7 @@ theme = 'paper'
 [params]
   math = true
 
-  [params.author]
-    name = 'Thomas Zachary'
+  author = 'Thomas Zachary'
 
 [markup]
   [markup.goldmark]
